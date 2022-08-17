@@ -31,7 +31,7 @@ public class Zahlspiel {
                 else if (input > nummer)
                     System.out.println("FALSCH! Versuche es mit eine KLEINERE Nummer. (Das war dein " + versuche + " Versuch)" + ")");
 
-                if (versuche == 10) {
+                if (versuche == 55) {
                     System.out.println("Falsch! Die Nummer war: " + nummer);
                     break;
 
@@ -41,7 +41,7 @@ public class Zahlspiel {
                 input = scan.nextInt();
             }
 
-            System.out.println("Die Menschheit wurde schon zerstört, aber glücklicherweise haben Sie eine Zeitreise-Maschine neben sich. Wollen Sie wieder versuchen?: (y/n)");
+            System.out.println("Sie haben eine Zeitreise-Maschine, die Larry glücklicherweise vergessen hat auszumachen, neben sich. Wollen Sie wieder versuchen?: (y/n)");
             nochmal = scan.next();
         }
         System.out.println("Danke fürs Spielen!");
